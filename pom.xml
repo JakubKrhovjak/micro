@@ -16,6 +16,8 @@
 
     <modules>
         <module>core</module>
+        <module>gateway</module>
+        <module>eureka</module>
     </modules>
 
     <properties>

@@ -15,7 +15,7 @@ public class CoreApplication {
         SpringApplication.run(CoreApplication.class, args);
     }
 
-    @GetMapping
+    @GetMapping("core")
     public Mono<String> ok() {
         return Mono.just("ok");
     }
